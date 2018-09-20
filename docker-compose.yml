@@ -4,7 +4,7 @@ services:
 
   web-init1:
     build: 
-      context: .
+      context: ./Docker-wordpress
       dockerfile: Dockerfile-wordpress
     ports:
     - "8080:80"
