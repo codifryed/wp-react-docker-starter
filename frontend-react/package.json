@@ -1,9 +1,10 @@
 {
-    "name": "frontend",
+    "name": "wp-frontend-react",
     "version": "1.0.0",
-    "description": "",
+    "description": "A start packages for a headless wordpress react site using docker-compose",
     "main": "index.js",
     "scripts": {
+		"dev": "next",
         "build": "next build",
         "start": "node server.js",
         "docker:build": "docker build -t frontend .",
