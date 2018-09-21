@@ -1,6 +1,6 @@
 FROM wordpress:php7.2-apache
 RUN usermod -u 1000 www-data
-COPY ./headless-wp-theme /var/www/html/wp-content/themes/
+#COPY ./headless-wp-theme /var/www/html/wp-content/themes/
 # wp-cli install
 RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar && \
 chmod +x wp-cli.phar && \
